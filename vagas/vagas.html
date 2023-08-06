@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../vagas/css/style.css">
+        <script src="./js/script.js"></script>
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+        <div class="main">
+            <div class="left" id="left">
+                <div class="vaga" id >
+                    
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <p onclick="openNav()">Meu Perfil</p>
+                </div>
+                
+                <div class="tabs">
+                    <p class="tabs-p" onclick="openTab(event,'Mensagens')">
+                        Mensagens
+                    </p>
+                    <p class="tabs-p" onclick="openTab(event,'Entregas')">
+                        Entregas
+                    </p>
+                    <p class="tabs-p">
+                        Entregas
+                    </p>
+                </div>
+
+                <div id="Mensagens" class="right-content">
+                    
+                    <script>
+                        for(let i =0; i<=2; i++){
+                            div = document.createElement("div");
+                     
+                            div.style.width = "100%";
+                            div.style.height = "100px";
+                            div.style.background = "red";
+                            div.style.display = "block"
+                            div.style.margin ="10px"
+
+                            
+                            document.getElementById("Mensagens").append(div);
+                        }
+                    </script>
+                </div>
+                <div id="Entregas" class="right-content">
+                    <p>b</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400&display=swap" rel="stylesheet">
+    </body>
+</html>

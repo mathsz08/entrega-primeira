@@ -1,0 +1,24 @@
+Home (Marcele)
+ - Login e cadastro (link/botao)
+ - Porque nós 
+    * Pessoas que usaram
+ - Contato
+
+Vagas ()
+ - Match
+
+Cadastro (Marconi)
+ *Empresa
+ *Usuario
+
+Login (Marcos)
+*Empresa
+*Usuario
+
+Informações da conta ()
+  - curriculo 
+  - foto
+  - dados pessoais
+  - filtros
+
+#3999c6//monocromatica: #60AED2 // contraste; #C66639
